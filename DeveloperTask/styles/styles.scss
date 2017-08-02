@@ -1,0 +1,133 @@
+.buttonGroup{
+  width: 90%;
+  margin: 30px auto;
+}
+
+.wrapper{
+  width: 90%;
+  margin: 50px auto;
+
+  -moz-column-width: 330px;
+  -webkit-column-width: 330px;
+  column-width: 330px;
+      
+  -moz-column-count: 5;
+  -webkit-column-count: 5;
+   column-count: 5;
+
+   -moz-column-gap: 5px;
+   -webkit-column-gap: 5px;
+   column-gap: 5px;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  img {
+    width: 100%;
+  }
+}
+
+.items {
+  position: center;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.items:hover {
+  transition: 0.5s;
+  background-color: rgba(222, 234, 237, 0.5);
+  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+}
+
+.manual-item {
+  width: 330px;
+  border: 1px solid #dae3e5;
+  border-radius: 5px;
+  padding: 27px;
+  #manual-icon {
+    display: block;
+    border-radius: 5px;
+    position: relative;
+    bottom: 40px;
+    margin-bottom: -66px;
+    z-index: 1;
+  }
+  #manual-thumbnail {
+    width:100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  p {
+    font-size: 1em;
+  }
+  h4 {
+    a {
+      color: red;
+    }
+  }
+}
+
+.twitter-item {
+  width: 330px;
+  border: 1px solid #dae3e5;
+  border-radius: 5px;
+  padding: 27px;
+  #twitter-icon{
+    border-radius: 5px;
+    position: relative;
+    bottom: 42px;
+    margin-bottom: -35px;
+    z-index: 1;
+  }
+  h4 {
+    font-weight: bold;
+    font-size: 1.75em;
+    text-align: center;
+  }
+  p {
+    font-size: 1.25em;
+    text-align: center;
+    padding: 15px 0;
+    a {
+      color: red;
+    }
+  }
+}
+
+.insta-item {
+  width: 330px;
+  border: 1px solid #dae3e5;
+  border-radius: 5px;
+  padding: 27px;
+  #insta-icon{
+    display: block;
+    border-radius: 5px;
+    position: relative;
+    bottom: 40px;
+    margin-bottom: -66px;
+    z-index: 1;
+  }
+  #insta-thumbnail{
+    width:100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  h4 {
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.25em;
+    a {
+      color: red;
+    }
+  }
+}
+
+
+.buttonWrapper {
+  text-align: center;
+  padding-bottom: 50px;
+}
